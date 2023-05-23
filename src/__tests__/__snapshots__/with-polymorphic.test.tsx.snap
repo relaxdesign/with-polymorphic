@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPolymorphic renders with custom element 1`] = `
+<button>
+  Test
+</button>
+`;
+
+exports[`withPolymorphic renders with custom element and additional props 1`] = `
+<button
+  class="custom-button"
+>
+  Test
+</button>
+`;
+
+exports[`withPolymorphic renders with custom element and conditional rendering 1`] = `
+<div>
+  <span>
+    Conditional Content
+  </span>
+</div>
+`;
+
+exports[`withPolymorphic renders with custom element and custom attribute 1`] = `
+<a
+  href="https://example.com"
+>
+  Link
+</a>
+`;
+
+exports[`withPolymorphic renders with custom element and custom style 1`] = `
+<div
+  style="color: red; font-size: 16px;"
+>
+  Styled Content
+</div>
+`;
+
+exports[`withPolymorphic renders with custom element and disabled state 1`] = `
+<button
+  disabled=""
+>
+  Disabled Button
+</button>
+`;
+
+exports[`withPolymorphic renders with custom element and event handlers 1`] = `
+<button>
+  Test
+</button>
+`;
+
+exports[`withPolymorphic renders with custom element and no children 1`] = `<button />`;
+
+exports[`withPolymorphic renders with default element 1`] = `
+<div>
+  Test
+</div>
+`;
+
+exports[`withPolymorphic renders with nested components 1`] = `
+<div>
+  <div>
+    <span>
+      Nested Component
+    </span>
+  </div>
+</div>
+`;
